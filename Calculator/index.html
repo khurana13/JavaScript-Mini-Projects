@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container text-center">
+        <h1>Calculator</h1>
+        <input placeholder="Enter First Number" class="form-control mb-3" id="num1">
+        <input placeholder="Enter Second Number" class="form-control mb-3" id="num2"> 
+    </div>
+
+    <br>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="btn1" onclick="myadd()">Add</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="btn2" onclick="mysubtract()">Subtract</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="btn3" onclick="mymultiply()">Multiply</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="btn4" onclick="mydivide()">Divide</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container text-center" id="result">
+        <h3>Result:</h3>
+    </div>
+
+    <script>
+        function myadd(){
+            var x = Number(document.getElementById('num1').value);
+            var y = Number(document.getElementById('num2').value);
+            var z = x + y;
+            z = z.toFixed(2);
+            document.getElementById('result').innerHTML = `<h3>Result: ` + z + `</h3>`;
+        }
+
+        function mysubtract(){
+            var x = Number(document.getElementById('num1').value);
+            var y = Number(document.getElementById('num2').value);
+            var z = x - y;
+            z = z.toFixed(2);
+            document.getElementById('result').innerHTML = `<h3>Result: ` + z + `</h3>`;
+        }
+
+        function mymultiply(){
+            var x = Number(document.getElementById('num1').value);
+            var y = Number(document.getElementById('num2').value);
+            var z = x * y;
+            z = z.toFixed(2);
+            document.getElementById('result').innerHTML = `<h3>Result: ` + z + `</h3>`;
+        }
+
+        function mydivide(){
+            var x = Number(document.getElementById('num1').value);
+            var y = Number(document.getElementById('num2').value);
+            if (y === 0) {
+                document.getElementById('result').innerHTML = `<h3>Result: Cannot divide by zero</h3>`;
+                return;
+            }      
+            var z = x / y;
+            z = z.toFixed(2);
+            document.getElementById('result').innerHTML = `<h3>Result: ` + z + `</h3>`;
+        }
+    </script>
+
+</body>
+</html>
