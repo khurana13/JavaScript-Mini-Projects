@@ -1,7 +1,8 @@
 # Calculator
 
-A simple and beginner-friendly calculator built using **HTML, Bootstrap, and JavaScript**.  
-This project performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
+A simple and beginner-friendly calculator built using **HTML, Bootstrap, and JavaScript**.
+
+This project performs basic arithmetic operations such as **addition, subtraction, multiplication, and division**. It is designed as a beginner JavaScript project to practice DOM manipulation, functions, event handling, and Bootstrap-based UI design.
 
 ---
 
@@ -11,8 +12,8 @@ This project performs basic arithmetic operations such as addition, subtraction,
 - Subtract two numbers
 - Multiply two numbers
 - Divide two numbers
-- Displays result up to 2 decimal places
-- Simple and clean Bootstrap-based UI
+- Display result up to 2 decimal places
+- Simple and clean Bootstrap-based user interface
 
 ---
 
