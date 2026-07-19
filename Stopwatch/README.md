@@ -9,8 +9,8 @@ This project allows users to start, pause/resume, and clear a stopwatch timer. I
 ## 📌 Features
 
 - Start the stopwatch
-- Pause and resume the stopwatch
-- Clear/reset the stopwatch
+- Pause/Resume the stopwatch
+- Clear/Reset the stopwatch
 - Display time in `MM:SS:MS` format
 - Simple and clean Bootstrap-based user interface
 
