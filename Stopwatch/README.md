@@ -1,8 +1,8 @@
 # Stopwatch
 
-A simple and beginner-friendly stopwatch application built using **HTML, Bootstrap, and JavaScript**.
+A simple and beginner-friendly stopwatch application built using **HTML, Bootstrap and JavaScript**.
 
-This project allows users to start, pause/resume, and clear a stopwatch timer. It displays time in **minutes, seconds, and milliseconds**.
+This project allows users to start, pause/resume, and clear a stopwatch timer. It displays time in **minutes, seconds and milliseconds**.
 
 ---
 
